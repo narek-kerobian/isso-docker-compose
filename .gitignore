@@ -1,0 +1,6 @@
+config/*
+!config/isso.cfg.dist
+
+database/*
+!database/.gitkeep
+

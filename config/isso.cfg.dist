@@ -1,0 +1,18 @@
+[general]
+dbpath = /database/isso.db
+host = http://localhost:1313/
+
+[server]
+listen = http://0.0.0.0:8080/ 
+
+[moderation]
+enabled = false
+purge-after = 30d
+
+[admin]
+enabled = true
+password = reallystrongandsecurepassword
+
+[hash]
+salt = securitysalt
+algorithm = pbkdf2
